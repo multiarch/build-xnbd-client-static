@@ -22,3 +22,7 @@ RUN crossbuild cc -c -std=c99 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/us
 
 RUN ls -la /artifacts \
  && file /artifacts/*
+
+RUN tar -C /artifacts -cvf /artifacts.tar .
+
+CMD ["cat", "/artifacts.tar"]
