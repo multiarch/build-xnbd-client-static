@@ -1,6 +1,8 @@
 # build-xnbd-client-static
 :earth_africa: Statically builds of `xnbd-client`
 
+![](https://raw.githubusercontent.com/multiarch/dockerfile/master/logo.jpg)
+
 Build multiarch `xnbd-client` static binaries using [crossbuild](https://github.com/multiarch/crossbuild).
 
 ## Release
